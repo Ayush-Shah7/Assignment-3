@@ -1,0 +1,43 @@
+Ans1: Node. js uses the “Single Threaded Event Loop” architecture to handle multiple concurrent clients. Node. 
+js Processing Model is based on the JavaScript event-based model along with the JavaScript callback mechanism.
+Basically, Node.js is a combination of Google’s V8 JavaScript engine, an event loop, and a low-level I/O API.
+
+Ans2: 1>Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine
+2>Node.js uses an event-driven, asynchronous non-blocking I/O model
+3>Node.js operates on a single thread event loop
+Short for input/output, I/O refers primarily to the program’s interaction with the system’s disk and network.
+Examples of I/O operations include reading/writing data from/to a disk, making HTTP requests, and talking to databases.
+They are very slow compared to accessing memory (RAM) or doing work on the CPU.
+
+Ans3: const friends = ["Ayush", "Manisha", "Aniket"];
+console.log(friends);
+
+Ans4: JSON, or JavaScript Object Notation, is a format used to represent data. It was introduced in the early 2000s
+as part of JavaScript and gradually expanded to become the most common medium for describing and exchanging text-based data. 
+Today, JSON is the universal standard of data exchange. It is found in every area of programming, 
+including front-end and server-side development, systems, middleware, and databases.
+
+Ans5: const cars = ["BMW", "Porsche", "Verna", "Honda City"];
+cars.pop();
+cars.app;
+
+let numbers = [0, 1 , 2, 3, 10, 20, 30 ];
+numbers.sort();
+console.log(numbers);
+
+let numbers = [0, 1, 2, 3, 10, 20, 30];
+numbers.sort((a, b) => a - b);
+console.log(numbers);
+
+Ans6: var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. 
+Variable declared by let cannot be redeclared and must be declared before use whereas variables declared with var keyword are hoisted.
+
+Ans7: In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods or properties.
+There are 7 primitive data types:
+1- Null type: The Null type is inhabited by exactly one value: null.
+2- Undefined type: The Undefined type is inhabited by exactly one value: undefined.
+3- Boolean type: The Boolean type represents a logical entity and is inhabited by two values: true and false.
+4- Number type: The Number type is a double-precision 64-bit binary format IEEE 754 value. It is capable of storing positive floating-point numbers between 2-1074 (Number.MIN_VALUE) and 21024 (Number.MAX_VALUE) as well as negative floating-point numbers between -2-1074 and -21024, but it can only safely store integers in the range -(253 − 1) (Number.MIN_SAFE_INTEGER) to 253 − 1 (Number.MAX_SAFE_INTEGER). Outside this range, JavaScript can no longer safely represent integers; they will instead be represented by a double-precision floating point approximation. You can check if a number is within the range of safe integers using Number.isSafeInteger().
+5- BigInt type: The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit (Number.MAX_SAFE_INTEGER) for Numbers.
+6- String type: The String type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units. Each element in the string occupies a position in the string. The first element is at index 0, the next at index 1, and so on. The length of a string is the number of UTF-16 code units in it, which may not correspond to the actual number of Unicode characters; see the String reference page for more details.
+7- Symbol type: A Symbol is a unique and immutable primitive value and may be used as the key of an Object property (see below). In some programming languages, Symbols are called "atoms". The purpose of symbols is to create unique property keys that are guaranteed not to clash with keys from other code.
